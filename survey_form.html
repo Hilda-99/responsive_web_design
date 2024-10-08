@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Survey From
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="survey">
+    <h1 id="title">Survey Form</h1>
+
+    <p id="description">This is a survey form regarding a visit to Sweden</p>
+
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label"> Please enter your name: 
+      <input required type="text" id="name" placeholder="Oddput Clementin"/>
+      </label>
+
+      <label id="email-label"> Please enter your email:
+      <input required type="email" id="email" placeholder="e.g hejhopp@outlook.com"/>
+      </label>
+
+      <label id="number-label"> Please enter your age: 
+      <input type="number" id="number" min="13" max="120" placeholder="e.g 25"/>
+      </label>
+      </fieldset>
+  <label for="yes-citizen">
+      <input type="radio" name="citizen-type" value="yes-citizen" class="inline" id="yes-citizen"/> Swedish citizen
+      </label>
+      <label for="no-citizen">
+      <input type="radio" name="citizen-type" value="no-citizen" class="inline" id="no-citizen"/> Other citizen
+      </label>
+
+<label for="travel"> Would you like to travel to Sweden?
+      <select id="dropdown" id="travel" name="travel">
+        <option value="">(select one)</option>
+            <option value="1">Yes!</option>
+            <option value="2">No!</option>
+            <option value="3">I already live there...</option>
+            <option value="4">Hmmm maybe</option>
+      </select>
+      </label>
+
+<fieldset>
+  <label> Which city would you like to visit?
+    <label>
+      <input class="inline" value="1" type="checkbox"/> Stockholm
+      </label>
+      <label>
+      <input value="2" class="inline"type="checkbox"/> Göteborg
+      </label>
+      
+      <label><input class="inline" value="3" type="checkbox"/>
+      Malmö
+      </label>
+      
+      <label>
+        <input class="inline" value="4"  type="checkbox"/> None
+        </label>
+</label>
+<label for="information">Any other information you would like to add?
+      <textarea id="information" name="information" rows="5" cols="50" type="textarea" placeholder="I would like to visit Sweden because of..."/></textarea>
+</label>
+</fieldset>
+      <input value="Submit" id="submit" type="submit"/>
+    </form>
+    </div>
+  </body>
+  </html>
