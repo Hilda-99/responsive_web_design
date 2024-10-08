@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #F7F7F7;
+  font-family: Courier;
+  background-image: url(https://swedish-presidency.consilium.europa.eu/media/zmgd3qri/stockholm_credit_helikopterfoto.jpg?cc=0,0.13986487644960321,0,0.10963378665200124&width=2080&height=1170&rnd=133167054745800000);
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+.survey {
+  background-color: #F7F7F7;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px; 
+  max-width: 500px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #8E8E93;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #EFEFF4;
+  border: 1px solid #D8D8D8;
+  color: black;
+  font-family: Courier;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #5A5A5A;
+  border-color: white;
+  min-width: 300px;
+  color: white;
+}
+
+select {
+  font-family: Courier;
+  font-size: 14px;
+}
+/*
+Pure White: #FFFFFF
+Off White: #F7F7F7
+Light Gray: #EFEFF4
+Medium Gray: #D8D8D8
+Dark Gray: #8E8E93
+*/
+
+** end of undefined **
